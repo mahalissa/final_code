@@ -1,0 +1,10 @@
+{
+  "dataset": "CULane",
+  "sequence": "05151640_0419.MP4",
+  "frames_evaluated": 50,
+  "pixel_precision": 0.3825,
+  "pixel_recall": 0.5644,
+  "pixel_f1": 0.4559,
+  "pixel_iou": 0.2953,
+  "mean_latency_ms": 52.42
+}
