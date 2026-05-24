@@ -1,0 +1,30 @@
+2026-05-13 15:50:28,742 [INFO] Harvesting frames...
+2026-05-13 15:50:30,168 [INFO] Harvested 3295 frames from 759 clips across 3 driver splits
+2026-05-13 15:50:30,169 [INFO] [LaneDetector] Weights already present at F:\Projects\raqib-final-year-project\server\models\yolopv2.pt
+2026-05-13 15:50:30,184 [INFO] [LaneDetector] Loading YOLOPv2 TorchScript on device: cuda
+2026-05-13 15:50:31,710 [INFO] [LaneDetector] YOLOPv2 ready.
+2026-05-13 15:50:59,259 [INFO]   250/3295 frames
+2026-05-13 15:51:28,327 [INFO]   500/3295 frames
+2026-05-13 15:51:57,366 [INFO]   750/3295 frames
+2026-05-13 15:52:25,836 [INFO]   1000/3295 frames
+2026-05-13 15:52:50,551 [INFO]   1250/3295 frames
+2026-05-13 15:53:19,400 [INFO]   1500/3295 frames
+2026-05-13 15:53:52,375 [INFO]   1750/3295 frames
+2026-05-13 15:54:20,178 [INFO]   2000/3295 frames
+2026-05-13 15:54:44,399 [INFO]   2250/3295 frames
+2026-05-13 15:55:07,676 [INFO]   2500/3295 frames
+2026-05-13 15:55:32,719 [INFO]   2750/3295 frames
+2026-05-13 15:55:59,700 [INFO]   3000/3295 frames
+2026-05-13 15:56:27,106 [INFO]   3250/3295 frames
+2026-05-13 15:56:32,030 [INFO] Wrote results to F:\Projects\raqib-final-year-project\server\tests\_inspect\culane_eval
+{
+  "frames_evaluated": 3295,
+  "pixel_precision": 0.47394043658008256,
+  "pixel_recall": 0.36256549010864936,
+  "pixel_f1": 0.41083856357399207,
+  "pixel_iou": 0.25852537958507205,
+  "mean_latency_ms": 51.26911963572931,
+  "tp": 36242856,
+  "fp": 40228475,
+  "fn": 63719377
+}

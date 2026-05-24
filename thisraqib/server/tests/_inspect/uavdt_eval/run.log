@@ -1,0 +1,40 @@
+2026-05-13 16:01:58,535 [INFO] Harvesting frames...
+2026-05-13 16:01:58,688 [INFO] Harvested 3608 frames across 70 sequences
+2026-05-13 16:01:58,688 [INFO] [Registry] First request for vehicle model 'visdrone'; loading...
+2026-05-13 16:02:00,429 [INFO] [VehicleDetectorVisDrone] Loading YOLOv8s-VisDrone (mshamrai/yolov8s-visdrone/best.pt) on device: cuda
+2026-05-13 16:02:01,136 [INFO] HTTP Request: HEAD https://huggingface.co/mshamrai/yolov8s-visdrone/resolve/main/best.pt "HTTP/1.1 302 Found"
+2026-05-13 16:02:01,761 [INFO] [VehicleDetectorVisDrone] VisDrone YOLOv8s loaded successfully.
+2026-05-13 16:02:01,761 [INFO] Evaluating visdrone on 3608 frames
+2026-05-13 16:02:04,775 [INFO]   visdrone: 250/3608 frames
+2026-05-13 16:02:07,791 [INFO]   visdrone: 500/3608 frames
+2026-05-13 16:02:11,049 [INFO]   visdrone: 750/3608 frames
+2026-05-13 16:02:14,087 [INFO]   visdrone: 1000/3608 frames
+2026-05-13 16:02:16,984 [INFO]   visdrone: 1250/3608 frames
+2026-05-13 16:02:20,284 [INFO]   visdrone: 1500/3608 frames
+2026-05-13 16:02:23,470 [INFO]   visdrone: 1750/3608 frames
+2026-05-13 16:02:26,262 [INFO]   visdrone: 2000/3608 frames
+2026-05-13 16:02:29,378 [INFO]   visdrone: 2250/3608 frames
+2026-05-13 16:02:32,281 [INFO]   visdrone: 2500/3608 frames
+2026-05-13 16:02:35,285 [INFO]   visdrone: 2750/3608 frames
+2026-05-13 16:02:38,321 [INFO]   visdrone: 3000/3608 frames
+2026-05-13 16:02:41,234 [INFO]   visdrone: 3250/3608 frames
+2026-05-13 16:02:44,542 [INFO]   visdrone: 3500/3608 frames
+2026-05-13 16:02:45,854 [INFO] [Registry] First request for vehicle model 'fasterrcnn'; loading...
+2026-05-13 16:02:45,854 [INFO] [VehicleDetectorFasterRCNN] Loading Faster R-CNN on device: cuda
+2026-05-13 16:02:46,423 [INFO] [VehicleDetectorFasterRCNN] Faster R-CNN loaded successfully.
+2026-05-13 16:02:46,425 [INFO] Evaluating fasterrcnn on 3608 frames
+2026-05-13 16:02:58,711 [INFO]   fasterrcnn: 250/3608 frames
+2026-05-13 16:03:11,189 [INFO]   fasterrcnn: 500/3608 frames
+2026-05-13 16:03:23,807 [INFO]   fasterrcnn: 750/3608 frames
+2026-05-13 16:03:36,281 [INFO]   fasterrcnn: 1000/3608 frames
+2026-05-13 16:03:48,788 [INFO]   fasterrcnn: 1250/3608 frames
+2026-05-13 16:04:01,086 [INFO]   fasterrcnn: 1500/3608 frames
+2026-05-13 16:04:13,463 [INFO]   fasterrcnn: 1750/3608 frames
+2026-05-13 16:04:25,636 [INFO]   fasterrcnn: 2000/3608 frames
+2026-05-13 16:04:38,092 [INFO]   fasterrcnn: 2250/3608 frames
+2026-05-13 16:04:50,016 [INFO]   fasterrcnn: 2500/3608 frames
+2026-05-13 16:05:01,757 [INFO]   fasterrcnn: 2750/3608 frames
+2026-05-13 16:05:13,480 [INFO]   fasterrcnn: 3000/3608 frames
+2026-05-13 16:05:25,393 [INFO]   fasterrcnn: 3250/3608 frames
+2026-05-13 16:05:37,520 [INFO]   fasterrcnn: 3500/3608 frames
+2026-05-13 16:05:42,696 [INFO] Wrote results to F:\Projects\raqib-final-year-project\server\tests\_inspect\uavdt_eval
